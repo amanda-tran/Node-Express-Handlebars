@@ -1,0 +1,27 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "A burger logger with MySQL, Node, Express, Handlebars and ORM",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanda-tran/Node-Express-Handlebars.git"
+  },
+  "author": "Patrick Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amanda-tran/Node-Express-Handlebars/issues"
+  },
+  "homepage": "https://github.com/amanda-tran/Node-Express-Handlebars#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}

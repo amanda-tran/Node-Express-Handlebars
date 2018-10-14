@@ -1,0 +1,21 @@
+<img class="img" src="/static/assets/img/burger-img.png"></img>
+
+<ul>
+    {{#each burger}} {{> burger}} {{/each}}
+</ul>
+
+<br><br><hr>
+
+<div class="justified">
+    <form class="create-form">
+        <div class="form-group">
+            <textarea rows="4" cols="50" id="burgerField" name="name" placeholder="Add burger here.."></textarea>
+        </div>
+        <div class="buttonDiv">
+            <button type="submit">submit</button>
+        </div>
+        <div class="buttonDiv">
+            <p>Enter a burger, then click submit!</p>
+        </div>
+    </form>
+</div>

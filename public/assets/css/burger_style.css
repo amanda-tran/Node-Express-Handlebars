@@ -1,0 +1,60 @@
+body {
+  background-color: goldenrod;
+}
+
+.img {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.justified {
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px;
+}
+
+div.justified .buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 100px;
+}
+
+li {
+  background-color: white;
+  height: 25px;
+  width: 250px;
+  margin: 0px 10px;
+  min-height: 30px;
+}
+
+li div {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 10px;
+}
+
+li.hide {
+  visibility: hidden;
+}
+
+ul div button {
+  width: 100px;
+  height: 30px;
+}
+
+button.devourIt {
+    cursor: pointer;
+}
+
+button.disable {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
