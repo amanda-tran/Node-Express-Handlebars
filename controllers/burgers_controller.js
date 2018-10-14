@@ -14,7 +14,7 @@ router.get("/", (req, res) => {
     res.render("index", burgerObj);
   });
 });
-
+//route path
 router.post("/api/burger", (req, res) => {
   console.log("Running Add Burger Checking Name");
   burger.create(

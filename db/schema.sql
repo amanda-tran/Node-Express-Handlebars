@@ -10,3 +10,5 @@ CREATE TABLE `burger`
     devoured BOOLEAN NOT NULL DEFAULT 0,
     PRIMARY KEY (id)
 );
+
+  
